@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds');
+@import url('https://fonts.googleapis.com/css?family=Tillana');
+
+body{
+  background-color:#CFD8DC;
+  width:80%;
+  border: 3px solid #455A64;
+  margin-left: 150px;
+  font-family: 'Trade Winds';
+  color: white;
+}
+
+a:hover{
+  color:#E91E63;
+}
+
+header{
+  background-color:#455A64;
+  position: fixed;
+  top:0px;
+  width:80%;
+  z-index:100;
+}
+
+main{
+  margin-top:60px;
+}
+main h1, h2, h3{
+  text-align: center;
+}
+
+section:first-of-type{
+  width: 100%;
+  height: 450px;
+  border-bottom: 1px solid #607D8B;
+  background-image: url(../assets/catroll.jpg);
+  background-size: 100% 600px;
+  background-position:top;
+}
+
+section:first-of-type:hover{
+  background-image: url(../assets/tofu.jpg);
+}
+
+section:first-of-type:hover h1{
+  visibility: hidden;
+  width:0;
+}
+
+section:first-of-type:hover h1:after{
+  visibility: visible !important;
+  content:"TofuSpace";
+  color:#E64A19;
+}
+
+h1 {
+  line-height: 280px;
+  font-size: 6rem;
+}
+header:hover h2 a{
+  visibility: hidden;
+}
+header:hover h2 a:after{
+  visibility: visible !important;
+  content:"TofuSpace";
+  color:#E64A19;
+}
+
+
+section.popposts{
+  border-bottom: 1px solid #607D8B;
+  padding-left:15%;
+  padding-bottom: 2%;
+  font-family:'Tillana';
+  color:#212121;
+}
+section.popposts h2{
+  position: relative;
+  right: 8%;
+  font-size: 3rem;
+  font-family: 'Trade Winds';
+}
+section.joinclub{
+  border-bottom: 1px solid #607D8B;
+  padding-left: 300px;
+}
+section.joinclub img{
+  display: inline-block;
+  padding:30px;
+  width:20%;
+  float: right;
+  position: absolute;
+}
+section.joinclub span{
+  width:30%;
+  padding:50px;
+  text-align: justify;
+  display: inline-block;
+  color:#455A64;
+}
+span p{
+    color:#607D8B;
+    font-family: 'Tillana';
+}
+article{
+  display: inline-block;
+  border: 3px solid #FFC107;
+  width: 25%;
+  height: 300px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+article h3{
+  border-bottom: 2px solid #FFC107;
+  padding-bottom:8px;
+}
+
+article p{
+padding:10px;
+text-align: justify;
+height: 40%;
+position: relative;
+}
+
+[href*="post"]{
+  text-transform: uppercase;
+  padding:5px;
+  border: 1px solid #607D8B;
+  border-radius: 5px;
+  color:#455A64;
+  font-weight: bold;
+}
+article p:last-child{
+  vertical-align: middle;
+  left:25%;
+}
+header nav{
+  list-style: none;
+  display:inline-block;
+  float:right;
+}
+
+header nav ul li {
+  padding: 10px;
+  display:inline-block;
+}
+header h2{
+  display:inline-block;
+  margin-left: 3%;
+}
+
+header h2 a{
+  color:white;
+}
+
+a{
+  text-decoration: none;
+  color:#FFC107;
+
+}
+
+main section:last-of-type{
+  border-bottom: 1px solid #607D8B;
+  background-image: url(../assets/niccat.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  height: 700px;
+}
+
+main section:last-of-type h2{
+  margin: 0;
+  padding-top: 95px;
+  font-size: 7rem;
+  color:#FFC107;
+}
+
+footer{
+  width: 80%;
+  margin-left: 200px;
+  color:#607D8B;
+}
+
+h4, p#disclaimer{
+  display: inline;
+  font-family: "Tillana";
+}
+
+div.foot{
+  width: 45%;
+  padding:30px;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer nav{
+  display:inline-block;
+}
