@@ -87,6 +87,7 @@ section.joinclub{
 section.joinclub img{
   display: inline-block;
   padding:30px;
+  max-width:350px;
   width:20%;
   float: right;
   position: absolute;
